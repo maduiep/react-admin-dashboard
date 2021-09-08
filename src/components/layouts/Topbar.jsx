@@ -7,7 +7,7 @@ function Topbar() {
         <div className="topbar">
             <div className="topbar__wrapper">
                 <div className="topbar__wrapper-left">
-                    <span className="logo">MaduIP Admin</span>
+                    <span className="logo">Admin</span>
                 </div>
                 <div className="topbar__wrapper-right">
                     <div className="icons">

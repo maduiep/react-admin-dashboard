@@ -1,21 +1,9 @@
-// import base 
+
 @import 'base/base';
 
-// import abstract
 @import 'abstract/variables';
 @import 'components/topbar';
 @import 'components/sidebar';
+@import 'components/home';
+@import 'components/featuredInfo';
 
-// import utilities
-// @import 'utilities/utils.scss';
-
-// import layout
-// @import 'layout/grid';
-
-// import components 
-// @import 'components/header';
-// @import 'components/navbar';
-// @import 'components/about';
-// @import 'components/show';
-// @import 'components/blank';
-// @import 'components/portfolio';
