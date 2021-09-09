@@ -4,4 +4,61 @@
         -webkit-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.5);
         -moz-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.5);
     padding: 20px;
+
+    &__title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    &__profile {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+
+    &__table {
+        width: 100%;
+        border-spacing: 20px;
+    }
+
+    &__th {
+        text-align: left;
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+    }
+
+    &__date {
+        font-weight: 300;
+    }
+
+    &__amout {
+        font-weight: 300;
+    }
+
+    &__btn {
+        padding: 5px 7px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    &__btn.Approved {
+        background-color: $color-7;
+        color: $color-10;
+    }
+
+    &__btn.Declined {
+        background-color: $color-8;
+        color: $color-11;
+    }
+
+    &__btn.Pending {
+        background-color: $color-9;
+        color: $color-12;
+    }
 }
