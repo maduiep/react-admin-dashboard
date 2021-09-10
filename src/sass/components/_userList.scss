@@ -1,0 +1,32 @@
+.userList {
+    flex: 4;
+    margin-left: 10px;
+
+    &__user {
+        display: flex;
+        align-items: center;
+    }
+
+    &__profile {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+
+    &__edit {
+        border: none;
+        border-radius: 7px;
+        padding: 5px 15px;
+        background-color: $color-13;
+        color: $white;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    &__delete {
+        color: $color-2;
+        cursor: pointer;
+    }
+}
