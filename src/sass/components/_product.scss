@@ -1,0 +1,104 @@
+.product {
+    flex: 4;
+    padding: 20px;
+
+    &__titleContainer {
+        @include flexSpace;
+    }
+
+    &__addBtn {
+        @include createBTN;
+    }
+
+    &__top {
+        display: flex;
+    }
+
+    &__topLeft, &__topRight {
+        flex: 1;
+    }
+
+    &__topRight {
+        padding: 20px;
+        margin: 20px;
+        @include boxShadow;
+    }
+
+    &__profile {
+        @include profilePicture;
+        margin-right: 20px;
+    }
+
+    &__topInfo {
+        @include flex;
+    }
+
+    &__bottompInfo {
+        margin-top: 10px;
+    }
+
+    &__name {
+        font-weight: 600;
+    }
+
+    &__infoItem {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__infoValue {
+        font-weight: 300;
+    }
+
+    &__bottom {
+        padding: 20px;
+        margin: 20px;
+        @include boxShadow;
+    }
+
+    &__form {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__formLeft {
+        display: flex;
+        flex-direction: column  ;
+    }
+
+    &__formLeft > label {
+        margin-bottom: 10px;
+        color: $color-dark-grey;
+    }
+
+    &__formLeft > input {
+        margin-bottom: 10px;
+        border: none;
+        padding: 5px;
+        border-bottom: 1px solid $color-dark-grey;
+    }
+
+    &__formLeft > select {
+        margin-bottom: 10px;
+        border: 1px solid $color-dark-grey;
+    }
+
+    &__updateProfile {
+        @include uplodaImage;
+    }
+
+    &__updateBtn {
+        @include updateBtn;
+    }
+
+    &__formRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    &__upload {
+        @include flex;
+    }
+}
