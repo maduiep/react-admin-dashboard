@@ -1,3 +1,58 @@
 .createUser {
     flex: 4;
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    &__item > label {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        color: $color-dark-grey;
+    }
+
+    &__item > input {
+        height: 20px;
+        padding: 20px;
+        border: 1px solid $color-dark-grey;
+        border-radius: 5px;
+    }
+
+    &__gender > input {
+        margin-top: 15px;
+    }
+
+    &__gender > label {
+        margin: 10px;
+        font-size: 18px;
+        color: $color-3;
+    }
+
+    &__select {
+        height: 40px;
+        border-radius: 5px;
+        color: $color-3;
+    }
+
+    &__Btn {
+        width: 200px;
+        border: none;
+        background-color: $color-1;
+        color: $white;
+        padding: 4px 7px;
+        border-radius: 10px;
+        font-weight: 400;
+        margin-top: 30px;
+        cursor: pointer;
+    }
 }
