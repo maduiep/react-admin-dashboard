@@ -20,8 +20,8 @@ function WidgetLg() {
                 <tr className="widgetLg__tr">
                     <td className="widgetLg__user">
                         <img className="widgetLg__profile"
-                                src={`${BASE_URL}/images/img-4.jpg`}
-                                alt="img" 
+                            src={`${BASE_URL}/images/img-4.jpg`}
+                            alt="img" 
                         />
                         <span className="widgetLg__username">
                             Emmanuel Madu IP
