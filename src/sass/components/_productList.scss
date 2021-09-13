@@ -1,10 +1,8 @@
-.userList {
+.productList {
     flex: 4;
-    margin: 20px;
 
-    &__user {
-        display: flex;
-        align-items: center;
+    &__item {
+        @include flex;
     }
 
     &__profile {

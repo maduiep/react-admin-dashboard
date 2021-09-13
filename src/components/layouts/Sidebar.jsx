@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import {LineStyle, 
      Timeline, 
      TrendingUp, 
@@ -19,10 +20,12 @@ function Sidebar() {
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Dashboard</h3>
                     <ul className="sidebar__list">
-                        <li className="item active">
-                            <LineStyle className="item__icon"/>
-                            Home
-                        </li>
+                        <Link to="/home" className="link">
+                            <li className="item active">
+                                <LineStyle className="item__icon"/>
+                                Home
+                            </li>
+                        </Link>
                         <li className="item">
                             <Timeline className="item__icon"/>
                             Anaytics
@@ -36,14 +39,18 @@ function Sidebar() {
                 <div className="sidebar__menu">
                     <h3 className="sidebar__title">Quick Menu</h3>
                     <ul className="sidebar__list">
-                        <li className="item">
-                            <PermIdentity className="item__icon"/>
-                            Users
-                        </li>
-                        <li className="item">
-                            <Storefront className="item__icon"/>
-                            Products
-                        </li>
+                        <Link to="/users" className="link">
+                            <li className="item">
+                                <PermIdentity className="item__icon"/>
+                                Users
+                            </li>
+                        </Link>
+                        <Link to="/products" className="link">
+                            <li className="item">
+                                <Storefront className="item__icon"/>
+                                Products
+                            </li>
+                        </Link>
                         <li className="item">
                             <AttachMoney className="item__icon"/>
                             Transactions

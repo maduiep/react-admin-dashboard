@@ -155,3 +155,87 @@ export const userData = [
       transaction: '$155.00'
     },
   ];
+  
+
+  export const productRows = [
+    { 
+      id: 1, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+
+    { 
+      id: 2, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+
+    { 
+      id: 3, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+
+    { 
+      id: 4, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+
+    { 
+      id: 5, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+
+    { 
+      id: 6, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+
+    { 
+      id: 7, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+
+    { 
+      id: 8, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+
+    { 
+      id: 9, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+
+    { 
+      id: 10, name: 'iPhone and Watch', 
+      img: '',
+      stock: 123,
+      status: 'Active',
+      price: '$155.00'
+    },
+  ];
+  
