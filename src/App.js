@@ -9,6 +9,7 @@ import User from './components/pages/User'
 import CreateUser from './components/pages/CreateUser'
 import ProductList from './components/pages/ProductList'
 import Product from './components/pages/Product'
+import CreateProduct from './components/pages/CreateProduct'
 
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
             <Product />
           </Route>
           <Route path="/newProduct">
-            <CreateUser />
+            <CreateProduct />
           </Route>
         </Switch>
       </div>
